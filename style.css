@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#menu-1 {
+  font-size: 11px;
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  color: #909090;
+  float: left;
+}
+
+#menu-1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu-1 ul li {
+  float: left;
+}
+
+#menu-1 ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 9px 10px;
+  color: #909090;
+}
+
+#menu-1 a:hover {
+  text-decoration: underline;
+}
+
+#menu-2 {
+  font-size: 11px;
+  width: 20%;
+
+  color: #909090;
+  /* margin-left: 300px; */
+  float: right;
+  height: 60px;
+}
+
+#menu-2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu-2 ul li {
+  float: left;
+}
+
+#menu-2 ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 2.5px 10px;
+  color: #909090;
+}
+
+.text {
+  padding: 9px 0px;
+}
+
+#sign {
+  height: 35px;
+  width: 90px;
+  text-align: center;
+  background-color: rgb(26, 115, 232);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+#sign:hover {
+  background-color: rgb(43, 125, 233);
+  cursor: pointer;
+}
+
+#sign:active {
+  background-color: rgba(43, 125, 233, 0.9);
+}
+
+#menu-2 a:hover {
+  text-decoration: underline;
+}
+
+#menu-icon {
+  opacity: 0.5;
+}
+
+#menu-icon a:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+#google-logo {
+  width: 272px;
+  height: 92px;
+  margin: 75px auto 0;
+}
+
+#search {
+  height: 75px;
+  width: 575px;
+  margin: 0px auto;
+}
+
+#search-2 {
+  height: 45px;
+  width: 550px;
+  border: 1px solid #dee1e7;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: -80px;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+#search-2:hover {
+  border: 1px solid #dee1e7;
+  box-shadow: 0 0 10px 2px #dee1e7;
+  cursor: auto;
+}
+
+#search-2:focus {
+  outline: none;
+  box-shadow: 0 0 10px 2px #dee1e7;
+}
+
+#nav-1 {
+  margin-left: 480px;
+  margin-top: -35px;
+  height: 25px;
+  width: 25px;
+}
+
+#nav-2 {
+  margin-left: 530px;
+  margin-top: -20px;
+  height: 20px;
+  width: 20px;
+}
+
+#down-buttons {
+  height: 50px;
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#google-search {
+  height: 35px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #202124;
+}
+
+#google-search:hover {
+  border: 1px solid #c3c6c9;
+}
+
+#google-search:active {
+  border: 1px solid #9ebff9;
+}
+
+#search-icon {
+  margin-left: 20px;
+  padding-top: -50px;
+}
+
+#microphone {
+  margin-top: -80px;
+  margin-left: 465px;
+}
+
+#lucky {
+  height: 35px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #202124;
+  margin-left: 25px;
+}
+
+#lucky:hover {
+  border: 1px solid #c3c6c9;
+}
+
+#lucky:active {
+  border: 1px solid #9ebff9;
+}
+
+footer {
+  font-size: 15px;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
